@@ -1,8 +1,8 @@
 import React from "react";
 import ToDoOneDay from "./toDoOneDay";
 
-const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
-  const toDoNew = toDo.filter((el) => el.valueDate === "");
+const Tuesday = ({ toDo, markDone, setUpdateData, deleteTask }) => {
+  const toDoNew = toDo.filter((el) => el.valueDate === "tuesday");
 
   return (
     <>
@@ -15,5 +15,4 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
     </>
   );
 };
-
-export default ToDo;
+export default Tuesday;

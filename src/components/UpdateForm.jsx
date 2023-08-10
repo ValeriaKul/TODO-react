@@ -17,8 +17,7 @@ const UpdateForm = ({
             onChange={(e) => changeTask(e)}
             className="form-control form-control-lg"
           />
-
-          <div className="row">
+          {/* <div className="row">
             <div className="row ch_importance">
               <select
                 name="import"
@@ -42,7 +41,8 @@ const UpdateForm = ({
                 <option value="sunday">Sunday</option>
               </select>
             </div>
-          </div>
+          </div> */}
+
         </div>
         <div className="col-auto">
           <button className="btn btn-lg btn-success" onClick={updateTask}>

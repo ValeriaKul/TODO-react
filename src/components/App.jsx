@@ -58,6 +58,8 @@ function App() {
       id: updateData.id,
       title: e.target.value,
       status: updateData.status ? true : false,
+      value: value,
+      valueDate: valueDate,
     };
     setUpdateData(newEntry);
   };
@@ -68,6 +70,7 @@ function App() {
     setToDo(updateObj);
     setUpdateData("");
   };
+
   function chengeSelect(event) {
     setValue(event.target.value);
   }
@@ -75,7 +78,6 @@ function App() {
   function chengeDate(event) {
     setValueDate(event.target.value);
   }
-
   return (
     <div className="container App">
       <br />

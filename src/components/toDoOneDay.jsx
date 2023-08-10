@@ -56,6 +56,8 @@ const ToDoOneDay = ({ toDoNew, markDone, setUpdateData, deleteTask }) => {
                               id: task.id,
                               title: task.title,
                               status: task.status ? true : false,
+                              value: task.value,
+                              valueDate: task.valueDate
                             })
                           }
                         >
